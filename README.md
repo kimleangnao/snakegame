@@ -1,2 +1,2 @@
-kimleangnao.github.io/snakegame
+https://kimleangnao.github.io/snakegame
 
