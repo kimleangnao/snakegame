@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.title {
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em 0;
+    font-family: 'Geo', sans-serif;
+}
+body {
+    background-color: rgb(219, 198, 198);
+}
+
+.game-frame {
+    width: 22em;
+    height: 26em;
+    margin: 1em auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.game-frame div {
+    width: 2em;
+    height: 2em;
+    background-color: lightgrey;
+}
+
+.score-board {
+    width: 22em;
+    height: 5em;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Geo', sans-serif;
+}
+.snake {
+    width: 100%;
+    height:30%;
+    font-size: 1.5em;
+}
+.score {
+    width:100%;
+    height: 30%;
+    font-size: 1.5em;
+}
+.high-score {
+    width:100%;
+    height: 30%;
+    font-size: 1.5em;
+}
